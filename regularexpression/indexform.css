@@ -1,0 +1,15 @@
+#button {
+    background-color: hsl(195, 69%, 59%);
+    border-radius: 8px;
+    border: none;
+   border-color: hsl(195, 69%, 59%);
+   color: antiquewhite;
+   height: 35px;
+   width: 80px;
+
+}
+.email, .url, .pwd{
+ width: 50%;
+ height: 3pc;
+ border-radius: 8px;
+}
