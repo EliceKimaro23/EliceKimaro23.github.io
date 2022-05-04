@@ -1,0 +1,49 @@
+#container{
+    display: grid;
+    border-style: solid;
+    border-width: 0px;
+    grid-template-areas:  
+    's s s t t t t t t t t'
+    's s s t t t t t t t t'
+    's s s h h h h e e e e'
+    's s s h h h h e e e e'
+    ;
+}
+
+#container>div{
+    border-style: solid;
+    border-width: 0px;
+    /* background-color: rgb(158, 37, 37); */
+    padding: 10%;
+}
+#some{
+    grid-area: s;
+   background-color: #c5c5b5;
+}
+#text{
+    grid-area: t;
+    background-color: #8a8787;
+}
+#here{
+    grid-area: h;
+    background-color: rgb(138, 132, 132);
+}
+#there{
+    grid-area: e;
+    background-color: rgb(109, 108, 108);
+}
+
+.item-menu{
+    background-color: aqua;
+
+}
+.item-menu .flex-box{
+    display: flex;
+}
+.item-menu .flex-box .item{
+         height: 40px;
+         padding: 10px; 
+        text-align: center;
+        color: white;
+        width: 150px;  
+}
