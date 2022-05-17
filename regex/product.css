@@ -17,6 +17,7 @@ header{
 }
 
 .hello{
+    
     font-size: 25px; 
     padding-left: 80px;
     color: white;
@@ -38,6 +39,9 @@ header{
     padding: 10px;
     height: 300px; 
    
+  }
+  .float{
+      float: right;
   }
   
  
